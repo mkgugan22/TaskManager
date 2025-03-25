@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./asserts/task-planning_18697602.png" type="image/x-icon">
+    <title>Task Manager</title>
+</head>
+<body>
+    <div id="main">
+    <h2 style="color: white;">TASK SCHEDULER </h2>
+     <!-- <p id="txt">
+     </p>
+     
+     <div id="image">
+
+     </div> -->
+
+     <div id ="task">
+      <input type="text" id="taskData" required >
+      <div id="sts">
+
+          <input type="radio" id="statusSuccess" value="success" name="status">Success</input>
+          <input type="radio" id="statusPending" value="pending" name="status">Pending</input>
+        </div>
+
+ <br>
+
+      <ul id="taskList"></ul>
+      <button id="editButton" onclick="taskAdd()">Add</button>
+
+
+     <div id="success">
+
+     <ul id="sucessTask">SUCCESS</ul>
+
+     <br><br>
+
+     </div>
+
+     <div id="Pending">
+
+        <ul id="PendingTask">PENDING</ul>
+              
+              
+
+        </div>
+
+
+
+
+    </div>
+</body>
+<script src="index.js"></script>
+
+</html>
