@@ -1,7 +1,5 @@
 # TaskManager
 
-# Task Manager
-
 ## Description
 
 Task Manager is a simple web application that allows users to create, edit, and manage tasks. Users can categorize tasks as "Success" or "Pending" and set due dates for pending tasks. The application stores tasks in the browser's local storage, ensuring that tasks persist even after refreshing the page.
